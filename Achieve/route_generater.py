@@ -90,3 +90,33 @@ for x1 in range(1, length_dictionary+1):
     path = path.replace("-", "")
     print(path)
     x1 = x1 + 1
+
+# It should generate the simliar output
+##
+'A':
+{'A': 'A', 'B': 'AB', 'C': 'ABC', 'D': 'ABCD', 'E': 'ABCDE', 'F': 'ABCDEF', 'G': 'ABCDEFG', 'H': 'ABCDH', 'I': 'ABCDHI', 'J': 'ABKJ', 'K': 'ABK', 'L': 'ABCDEFL', 'M': 'ABKM'}
+'B':
+{'A': 'BA', 'B': 'B', 'C': 'BC', 'D': 'BCD', 'E': 'BCDE', 'F': 'BCDEF', 'G': 'BCDEFG', 'H': 'BCDH', 'I': 'BCDHI', 'J': 'BKJ', 'K': 'BK', 'L': 'BCDEFL', 'M': 'BKM'}
+'C':
+{'A': 'CBA', 'B': 'CB', 'C': 'C', 'D': 'CD', 'E': 'CDE', 'F': 'CDEF', 'G': 'CDEFG', 'H': 'CDH', 'I': 'CDHI', 'J': 'CDHIJ', 'K': 'CBK', 'L': 'CDEFL', 'M': 'CBKM'}
+'D':
+{'A': 'DCBA', 'B': 'DCB', 'C': 'DC', 'D': 'D', 'E': 'DE', 'F': 'DEF', 'G': 'DEFG', 'H': 'DH', 'I': 'DHI', 'J': 'DHIJ', 'K': 'DCBK', 'L': 'DEFL', 'M': 'DCBKM'}
+'E':
+{'A': 'EDCBA', 'B': 'EDCB', 'C': 'EDC', 'D': 'ED', 'E': 'E', 'F': 'EF', 'G': 'EFG', 'H': 'EDH', 'I': 'EDHI', 'J': 'EDHIJ', 'K': 'EDCBK', 'L': 'EFL', 'M': 'EDCBKM'}
+'F':
+{'A': 'FEDCBA', 'B': 'FEDCB', 'C': 'FEDC', 'D': 'FED', 'E': 'FE', 'F': 'F', 'G': 'FG', 'H': 'FEDH', 'I': 'FEDHI', 'J': 'FEDHIJ', 'K': 'FEDCBK', 'L': 'FL', 'M': 'FEDCBKM'}
+'G':
+{'A': 'GFEDCBA', 'B': 'GFEDCB', 'C': 'GFEDC', 'D': 'GFED', 'E': 'GFE', 'F': 'GF', 'G': 'G', 'H': 'GFEDH', 'I': 'GFEDHI', 'J': 'GFEDHIJ', 'K': 'GFEDCBK', 'L': 'GFL', 'M': 'GFEDCBKM'}
+'H':
+{'A': 'HDCBA', 'B': 'HDCB', 'C': 'HDC', 'D': 'HD', 'E': 'HDE', 'F': 'HDEF', 'G': 'HDEFG', 'H': 'H', 'I': 'HI', 'J': 'HIJ', 'K': 'HDCBK', 'L': 'HDEFL', 'M': 'HDCBKM'}
+'I':
+{'A': 'IHDCBA', 'B': 'IHDCB', 'C': 'IHDC', 'D': 'IHD', 'E': 'IHDE', 'F': 'IHDEF', 'G': 'IHDEFG', 'H': 'IH', 'I': 'I', 'J': 'IJ', 'K': 'IJK', 'L': 'IHDEFL', 'M': 'IJKM'}
+'J':
+{'A': 'JKBA', 'B': 'JKB', 'C': 'JKBC', 'D': 'JIHD', 'E': 'JIHDE', 'F': 'JIHDEF', 'G': 'JIHDEFG', 'H': 'JIH', 'I': 'JI', 'J': 'J', 'K': 'JK', 'L': 'JIHDEFL', 'M': 'JKM'}
+'K':
+{'A': 'KBA', 'B': 'KB', 'C': 'KBC', 'D': 'KBCD', 'E': 'KBCDE', 'F': 'KBCDEF', 'G': 'KBCDEFG', 'H': 'KBCDH', 'I': 'KJI', 'J': 'KJ', 'K': 'K', 'L': 'KBCDEFL', 'M': 'KM'}
+'L':
+{'A': 'LFEDCBA', 'B': 'LFEDCB', 'C': 'LFEDC', 'D': 'LFED', 'E': 'LFE', 'F': 'LF', 'G': 'LFG', 'H': 'LFEDH', 'I': 'LFEDHI', 'J': 'LFEDHIJ', 'K': 'LFEDCBK', 'L': 'L', 'M': 'LFEDCBKM'}
+'M':
+{'A': 'MKBA', 'B': 'MKB', 'C': 'MKBC', 'D': 'MKBCD', 'E': 'MKBCDE', 'F': 'MKBCDEF', 'G': 'MKBCDEFG', 'H': 'MKBCDH', 'I': 'MKJI', 'J': 'MKJ', 'K': 'MK', 'L': 'MKBCDEFL', 'M': 'M'}
+##
